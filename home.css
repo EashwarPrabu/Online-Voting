@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+.topbar
+{
+ background: rgb(33,44,53);
+  position: fixed;
+  top: 0; right: 0; bottom:0; left: 0;
+  width: 1920;
+  height:100; 
+  color:rgb(224,214,17);
+  font-size:35px;
+  font-family:monospace;
+  text-align: left;
+    
+}
+.voteindia
+{
+    position: absolute;
+    left:25;
+    top:-8 ;
+}
+#logo
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left:10;
+    top:15;
+}
+#header
+{
+    position:absolute;
+    left:15;
+
+}
+.navbar
+{
+    position:fixed;
+    top:100;
+    width: 100%;
+    background-color:dimgrey;
+}
+.navbar a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+      
+}
+
+.navbar a:hover
+{
+    background-color: rgb(224,214,17);
+    transition: 0.3s ease;
+    color:rgba(0,0,0,1);
+}
+
+#right
+{
+  float:right;  
+}
+#header
+{
+    position:absolute;
+    left:50;
+}
+p.ex1{
+ 
+  padding-left: 1080px;
+  word-spacing: 350px
+}
+p.ex2{
+  font-size:20px;
+}
